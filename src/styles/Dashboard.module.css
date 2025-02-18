@@ -1,0 +1,46 @@
+/* styles/Dashboard.module.css */
+
+.container {
+    display: flex;
+    height: 90vh;
+    min-width: 90vw;
+  }
+  
+  .table-container {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    padding: 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .sidebar nav ul li:hover {
+    background-color: #444;
+    padding-left: 1rem;
+  }
+  
+  .sidebar nav ul li.active {
+    background-color: #555;
+    padding-left: 1rem;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+
+  

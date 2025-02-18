@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "docx-pdf": "^0.0.1",
+    "docxtemplater": "^3.49.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "mammoth": "^1.8.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "pizzip": "^3.1.7",
+    "puppeteer": "^22.15.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
